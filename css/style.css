@@ -75,8 +75,7 @@ img {
 
 /* MEDIA QUERY */
 
-@media (max-width: 419px) {
-
+@media (max-width: 594px) {
   * {
     margin: 0;
     padding: 0;
@@ -90,13 +89,13 @@ img {
 
   .row h1 {
     margin: 0 0 4vw 0;
-    font-size: 1.5em; 
+    font-size: 6vw; 
   }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right,
-  #lezioni .row>.left,
+  #lezioni .row>.left, 
   #lezioni .row>.right,
   #why .row>.first,
   #why .row>.second,
@@ -107,7 +106,7 @@ img {
   } 
 
   img {
-    width: 100px;
+    width: 20vw;
     height: auto;
   }
 
@@ -118,10 +117,24 @@ img {
   #lezioni, #why {
     background-color: #f2f2cd;
   }
+
+  #lezioni .right img {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 419px) {
+
+  .row h1 {
+    font-size: 1.5em; 
+  }
+
+  img {
+    width: 100px;
+    height: auto;
+  }
   
   #lezioni .right img {
     width: 180px;
   }  
 }
- 
-
